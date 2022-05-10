@@ -389,3 +389,7 @@ h6 {
         flex-direction: column;
     }
 }
+
+body { 
+    background-image: linear-gradient(to bottom, saddlebrown, rgb(19, 9, 1));
+}
