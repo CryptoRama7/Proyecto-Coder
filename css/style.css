@@ -123,7 +123,7 @@ body{
 }
 
 .pie__formulario--boton {
-    height: 20px;
+    height: 24px;
     width: 50px;
 }
 
@@ -392,4 +392,49 @@ h6 {
 
 body { 
     background-image: linear-gradient(to bottom, saddlebrown, rgb(19, 9, 1));
+}
+
+ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+button {
+    font-size: initial;
+
+}
+
+.segundaparteindex {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parrafo {
+    font-size: 20px;
+}
+
+.continuacionindex {
+    text-decoration: underline;
+}
+
+.row {
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+    z-index: -1;
+}
+
+.fotoscomida {
+    width: 600px;
+    height: 400px;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    max-height: 400px;
 }
