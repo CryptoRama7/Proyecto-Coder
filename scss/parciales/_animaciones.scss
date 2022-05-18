@@ -1,0 +1,24 @@
+@keyframes pielogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.imgsegundaparteindex{
+    width: 300px;
+    height: 200px;
+    transition: 3s all;
+}
+
+.segundaparteindex:hover .imgsegundaparteindex {
+    transform: translateX(130px);
+    width: 400px;
+    height: 240px;
+}
+

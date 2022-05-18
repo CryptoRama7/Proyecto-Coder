@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  background-image: url(https://sergiocarracedo.es/images/header_cafe.jpg);
+  background-position: right;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.encabezado .encabezado__icono {
+  margin-left: 25px;
+}
+
+.nav {
+  display: flex;
+  align-self: center;
+  margin-right: 40px;
+}
+
+.nav .nav__menu {
+  color: red;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.nav .nav__objetivo {
+  color: red;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.nav .nav__sobrenosotros {
+  color: red;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.nav .nav__locales {
+  color: red;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.pie {
+  margin-left: 50px;
+}
+
+.pie .pie__promocion {
+  font-weight: 100;
+}
+
+.pie .pie__formulario {
+  font-size: 21px;
+}
+
+.pie .pie__formulario--completar {
+  height: 22px;
+  width: 250px;
+}
+
+.pie .pie__formulario--boton {
+  height: 24px;
+  width: 50px;
+  transition: .3s ease all;
+}
+
+.pie .pie__formulario--boton:hover {
+  background-color: saddlebrown;
+  transform: translateX(5px);
+}
+
+.pie .pie__logo {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(360deg);
+  animation-name: pielogo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+body {
+  background-color: saddlebrown;
+  color: red;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to bottom, saddlebrown, #130901);
+}
+
+.presentacion {
+  padding-top: 175px;
+  text-align: center;
+}
+
+.presentacion .presentacion__titulo {
+  font-size: 150px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.presentacion .presentacion__subtitulo {
+  margin-top: -25px;
+  font-size: 50px;
+  font-weight: 450;
+}
+
+.presentacion .presentacion__adicional {
+  font-size: 30px;
+  margin-top: -5px;
+  font-weight: 300;
+}
+
+.titulomenu {
+  padding-top: 150px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  color: red;
+}
+
+.titulosn {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  color: red;
+}
+
+.tituloobj {
+  padding-top: 150px;
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.tituloloc {
+  padding-top: 150px;
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.derechos {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 15px;
+}
+
+.parrafosn {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  color: red;
+}
+
+.parrafoobj {
+  color: black;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.parrafoloc {
+  color: black;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.parrafo {
+  font-size: 20px;
+}
+
+.segundaparteindex {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.continuacionindex {
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.flexfounders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexobj {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  align-items: baseline;
+  height: 40vh;
+  align-items: center;
+}
+
+.redes .redes__twitter {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.redes .redes__instagram {
+  width: 175px;
+  margin: 10px;
+}
+
+.redes .redes__telegram {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    display: none;
+  }
+  .hamburguesa {
+    display: block;
+  }
+  .presentacion__titulo {
+    font-size: 70px;
+    padding-bottom: 20px;
+  }
+  .presentacion__subtitulo {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .presentacion__adicional {
+    font-size: 25px;
+  }
+  .redes {
+    flex-direction: column;
+  }
+  .pie {
+    margin: 5px;
+  }
+  .pie__promocion {
+    font-size: 20px;
+  }
+  .pie__formulario {
+    font-size: 20px;
+  }
+  .pie__formulario--completar {
+    height: 15px;
+    width: 100px;
+  }
+  .pie__formulario--boton {
+    height: 20px;
+    width: 50px;
+  }
+  .pie__formulario--boton:hover {
+    background-color: saddlebrown;
+    transform: translateX(5px);
+  }
+  .pie__logo {
+    width: 100px;
+    height: 100px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  .mapa {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgsegundaparteindex {
+    animation: none;
+  }
+}
+
+.lista1 {
+  /* margin-top: 100px; */
+  display: inline-block;
+}
+
+.lista2 {
+  /* margin-top: 100px; */
+  display: inline-block;
+}
+
+.lista3 {
+  /* margin-top: 100px; */
+  display: inline-block;
+}
+
+.lista4 {
+  /* margin-top: 100px; */
+  display: inline-block;
+}
+
+.lista {
+  border: 7px solid black;
+  border-radius: 14px;
+  color: black;
+  margin-left: 50px;
+  margin-top: 30px;
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lista .lista1__cafes {
+  display: inline-block;
+  border: 7px solid #200f02;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.lista .lista2__comida {
+  display: inline-block;
+  border: 7px solid #200f02;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.lista .lista3__bebidas {
+  display: inline-block;
+  border: 7px solid #200f02;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.lista .lista4__bebidas {
+  display: inline-block;
+  border: 7px solid #200f02;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.founders {
+  width: 50%;
+  height: 60%;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.foto {
+  margin-top: 30px;
+  width: 400px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fotoscomida {
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.mapa {
+  display: grid;
+  justify-items: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.hamburguesa {
+  display: none;
+  margin: 40px 40px 0px 0px;
+  text-decoration: none;
+  color: red;
+}
+
+button {
+  font-size: initial;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 15px;
+  z-index: -1;
+}
+
+@keyframes pielogo {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.imgsegundaparteindex {
+  width: 300px;
+  height: 200px;
+  transition: 3s all;
+}
+
+.segundaparteindex:hover .imgsegundaparteindex {
+  transform: translateX(130px);
+  width: 400px;
+  height: 240px;
+}

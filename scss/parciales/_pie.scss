@@ -1,0 +1,37 @@
+.pie {
+    margin-left: 50px;
+
+    .pie__promocion {
+        font-weight:100;
+    }
+    
+    .pie__formulario {
+        font-size: 21px;
+    }
+    
+    .pie__formulario--completar {
+        height: 22px;
+        width: 250px;
+    }
+    
+    .pie__formulario--boton {
+        height: 24px;
+        width: 50px;
+        transition: .3s ease all;
+    }
+    
+    .pie__formulario--boton:hover {
+        background-color: saddlebrown;
+        transform:translateX(5px);
+    }
+    
+    .pie__logo {
+        width: 100px;
+        height: 100px;
+        transition: 3s;
+        transform: rotate(360deg);
+        animation-name: pielogo;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+}

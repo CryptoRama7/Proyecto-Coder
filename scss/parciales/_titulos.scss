@@ -1,0 +1,56 @@
+.presentacion {
+    padding-top: 175px;
+    text-align: center;
+
+    .presentacion__titulo {
+        font-size: 150px;
+        font-style:oblique;
+        text-decoration:underline;
+    }
+    
+    .presentacion__subtitulo {
+        margin-top: -25px;
+        font-size: 50px;
+        font-weight: 450;
+    }
+    
+    .presentacion__adicional {
+        font-size: 30px;
+        margin-top: -5px;
+        font-weight: 300;
+    }
+}
+
+
+.titulomenu {
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration:underline;
+    color: $color-claro;
+}
+
+.titulosn {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration:underline;
+    color: $color-claro;
+}
+
+.tituloobj {
+    padding-top: 150px;
+    text-align: center;
+    color: $color-claro;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.tituloloc {
+    padding-top: 150px;
+    text-align: center;
+    color: $color-claro;
+    text-decoration: underline;
+    font-size: 50px;
+}
+

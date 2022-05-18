@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguesa {
+        display: block;
+    }
+    .presentacion__titulo {
+        font-size: 70px ;
+        padding-bottom: 20px;
+    }
+    .presentacion__subtitulo {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .presentacion__adicional {
+        font-size: 25px;
+    }
+    .redes {
+        flex-direction: column;
+    }
+    .pie {
+        margin: 5px;
+    }
+    .pie__promocion {
+        font-size: 20px;
+    }
+    
+    .pie__formulario {
+        font-size: 20px;
+    }
+    
+    .pie__formulario--completar {
+        height: 15px;
+        width: 100px;
+    }
+    
+    .pie__formulario--boton {
+        height: 20px;
+        width: 50px;
+    }
+
+    .pie__formulario--boton:hover {
+        background-color: saddlebrown;
+        transform:translateX(5px);
+    }
+    
+    .pie__logo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    h6 {
+        font-size: 20px;
+    }
+
+    .mapa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgsegundaparteindex {
+        animation: none;
+    }
+}

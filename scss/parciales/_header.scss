@@ -1,0 +1,44 @@
+.encabezado {   
+    background-image: url(https://sergiocarracedo.es/images/header_cafe.jpg);
+    background-position:right;
+    background-size: cover;        
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+
+    .encabezado__icono {
+        margin-left: 25px;
+    }   
+}
+
+.nav { 
+display: flex;
+align-self: center;
+margin-right: 40px;
+
+    .nav__menu {
+    color: $color-claro;
+    text-decoration: none;
+    margin: 0px 10px;
+    }
+
+    .nav__objetivo {
+    color: $color-claro;
+    text-decoration: none;
+    margin: 0px 10px;
+    }
+
+    .nav__sobrenosotros {
+    color: $color-claro;
+    text-decoration: none;
+    margin: 0px 10px;
+    }
+
+    .nav__locales {
+    color: $color-claro;
+    text-decoration: none;
+    margin: 0px 10px;
+    }
+}

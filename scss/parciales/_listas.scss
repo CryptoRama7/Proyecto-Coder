@@ -1,0 +1,78 @@
+.lista1 {
+    /* margin-top: 100px; */
+    display: inline-block;
+}
+
+.lista2 {
+    /* margin-top: 100px; */
+    display: inline-block;
+}
+
+.lista3 {
+    /* margin-top: 100px; */
+    display: inline-block;
+}
+
+.lista4 {
+    /* margin-top: 100px; */
+    display: inline-block;
+}
+
+
+.lista {
+    border: 7px solid black;
+    border-radius: 14px;
+    color: black;
+    margin-left: 50px;
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+
+    .lista1__cafes {
+        display: inline-block;
+        border: 7px solid rgb(32, 15, 2);
+        border-radius: 14px;
+        width: 200px;
+        color: black;
+        list-style: none;
+        padding-left: 5px;
+    }
+    
+    .lista2__comida {
+        display: inline-block;
+        border: 7px solid rgb(32, 15, 2);
+        border-radius: 14px;
+        width: 200px;   
+        color: black;
+        list-style: none;
+        padding-left: 5px;
+    }
+    
+    .lista3__bebidas {
+        display: inline-block;
+        border: 7px solid rgb(32, 15, 2);
+        border-radius: 14px;
+        width: 200px;   
+        color: black;
+        list-style: none;
+        padding-left: 5px;
+    }
+    
+    .lista4__bebidas {
+        display: inline-block;
+        border: 7px solid rgb(32, 15, 2);
+        border-radius: 14px;
+        width: 200px;   
+        color: black;
+        list-style: none;
+        padding-left: 5px;
+    }
+}
+
+ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}

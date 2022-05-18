@@ -114,45 +114,22 @@ body{
 }
 
 .pie__formulario {
-    font-size: 21px;
+    font-size: 25px;
 }
 
 .pie__formulario--completar {
-    height: 22px;
+    height: 20px;
     width: 250px;
 }
 
 .pie__formulario--boton {
-    height: 24px;
+    height: 20px;
     width: 50px;
-    transition: .3s ease all;
-}
-
-.pie__formulario--boton:hover {
-    background-color: saddlebrown;
-    transform:translateX(5px);
 }
 
 .pie__logo {
     width: 100px;
     height: 100px;
-    transition: 3s;
-    transform: rotate(360deg);
-    animation-name: pielogo;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes pielogo {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
 h6 {
@@ -179,7 +156,6 @@ h6 {
 }
 
 
-
 .lista1 {
     /* margin-top: 100px; */
     display: inline-block;
@@ -202,7 +178,7 @@ h6 {
 
 .lista1__cafes {
     display: inline-block;
-    border: 7px solid rgb(32, 15, 2);
+    border: 7px solid black;
     border-radius: 14px;
     width: 200px;
     color: black;
@@ -212,7 +188,7 @@ h6 {
 
 .lista2__comida {
     display: inline-block;
-    border: 7px solid rgb(32, 15, 2);
+    border: 7px solid black;
     border-radius: 14px;
     width: 200px;   
     color: black;
@@ -222,7 +198,7 @@ h6 {
 
 .lista3__bebidas {
     display: inline-block;
-    border: 7px solid rgb(32, 15, 2);
+    border: 7px solid black;
     border-radius: 14px;
     width: 200px;   
     color: black;
@@ -232,7 +208,7 @@ h6 {
 
 .lista4__bebidas {
     display: inline-block;
-    border: 7px solid rgb(32, 15, 2);
+    border: 7px solid black;
     border-radius: 14px;
     width: 200px;   
     color: black;
@@ -398,11 +374,6 @@ h6 {
         height: 20px;
         width: 50px;
     }
-
-    .pie__formulario--boton:hover {
-        background-color: saddlebrown;
-        transform:translateX(5px);
-    }
     
     .pie__logo {
         width: 100px;
@@ -417,67 +388,8 @@ h6 {
         display: flex;
         flex-direction: column;
     }
-
-    .imgsegundaparteindex {
-        animation: none;
-    }
 }
 
 body { 
     background-image: linear-gradient(to bottom, saddlebrown, rgb(19, 9, 1));
-}
-
-ul {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-button {
-    font-size: initial;
-
-}
-
-.segundaparteindex {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.imgsegundaparteindex{
-    width: 300px;
-    height: 200px;
-    transition: 3s all;
-}
-
-.segundaparteindex:hover .imgsegundaparteindex {
-    transform: translateX(130px);
-    width: 400px;
-    height: 240px;
-}
-
-.parrafo {
-    font-size: 20px;
-}
-
-.continuacionindex {
-    text-decoration: underline;
-}
-
-.row {
-    align-items: center;
-}
-
-.card {
-    width: 200px;
-    height: 200px;
-    margin-top: 30px;
-    margin-left: 15px;
-    z-index: -1;
-}
-
-.fotoscomida {
-    z-index: -1;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 400px;
-    max-height: 300px;
 }
