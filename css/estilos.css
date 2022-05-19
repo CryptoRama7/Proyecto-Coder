@@ -25,25 +25,25 @@
 }
 
 .nav .nav__menu {
-  color: red;
+  color: wheat;
   text-decoration: none;
   margin: 0px 10px;
 }
 
 .nav .nav__objetivo {
-  color: red;
+  color: wheat;
   text-decoration: none;
   margin: 0px 10px;
 }
 
 .nav .nav__sobrenosotros {
-  color: red;
+  color: wheat;
   text-decoration: none;
   margin: 0px 10px;
 }
 
 .nav .nav__locales {
-  color: red;
+  color: wheat;
   text-decoration: none;
   margin: 0px 10px;
 }
@@ -88,7 +88,7 @@
 
 body {
   background-color: saddlebrown;
-  color: red;
+  color: wheat;
   box-sizing: border-box;
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
@@ -123,7 +123,7 @@ body {
   text-align: center;
   margin-bottom: 30px;
   text-decoration: underline;
-  color: red;
+  color: wheat;
 }
 
 .titulosn {
@@ -131,13 +131,13 @@ body {
   text-align: center;
   font-size: 50px;
   text-decoration: underline;
-  color: red;
+  color: wheat;
 }
 
 .tituloobj {
   padding-top: 150px;
   text-align: center;
-  color: red;
+  color: wheat;
   text-decoration: underline;
   font-size: 50px;
 }
@@ -145,7 +145,7 @@ body {
 .tituloloc {
   padding-top: 150px;
   text-align: center;
-  color: red;
+  color: wheat;
   text-decoration: underline;
   font-size: 50px;
 }
@@ -167,7 +167,7 @@ h6 {
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
-  color: red;
+  color: wheat;
 }
 
 .parrafoobj {
@@ -427,7 +427,7 @@ ul {
   display: none;
   margin: 40px 40px 0px 0px;
   text-decoration: none;
-  color: red;
+  color: wheat;
 }
 
 button {
@@ -465,3 +465,4 @@ button {
   width: 400px;
   height: 240px;
 }
+/*# sourceMappingURL=estilos.css.map */
