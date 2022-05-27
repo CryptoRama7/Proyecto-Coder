@@ -1,37 +1,30 @@
 .pie {
     margin-left: 50px;
+    margin-top: 50px;
 
     .pie__promocion {
         font-weight:100;
-    }
-    
-    .pie__formulario {
+      }
+      
+      .pie__formulario {
         font-size: 21px;
-    }
-    
-    .pie__formulario--completar {
+      }
+      
+      .pie__formulario--completar {
         height: 22px;
         width: 250px;
-    }
-    
-    .pie__formulario--boton {
-        height: 24px;
-        width: 50px;
-        transition: .3s ease all;
-    }
-    
-    .pie__formulario--boton:hover {
-        background-color: saddlebrown;
-        transform:translateX(5px);
-    }
-    
-    .pie__logo {
-        width: 100px;
-        height: 100px;
-        transition: 3s;
-        transform: rotate(360deg);
-        animation-name: pielogo;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-    }
-}
+      }
+  }
+
+  h6 {
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 15px;
+  }
+
+.footer {
+    background-color: $color-oscuro;
+    height: 3rem;
+    text-align: center;
+    background-image: radial-gradient(rgb(48, 24, 10), rgb(19, 9, 1));
+  }

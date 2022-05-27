@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Locales</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlockCoffee</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos la primer cafeteria crypto-inclusiva de todo el Mundo. Nuestro objetivo es ser el lado tangible de la comunidad cripto argentina. Veni a tomar un
+    cafe, aprender y conocer gente que se encuentre dentro del ecosistema. Si sos outsider también te esperamos."
+    <meta name="keywords" content="Cafeteria, Cafe, Crypto, Criptomonedas, Comida, Comunidad, Bitcoin, Ethereum, Altcoins, Mercado, Merienda, Desayuno, Brunch, Locales, Ubicación" -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
     <link rel="icon" href="../images/Blockcoffeenegrosinfondo.png">   
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
-integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="encabezado">
         <div class="encabezado__icono">
             <img src="../images/Blockcoffeenegrosinfondo.png" alt="BlockCoffee" height="100px" width="100px">
         </div>
-            <nav class="nav">
+            <nav id="lateral" class="nav">
                 <a class="nav__sobrenosotros" href="../index.html">Inicio</a>
                 <a class="nav__menu" href="Menu.html">Menu</a>
                 <a class="nav__objetivo" href="Sobre Nosotros.html">Sobre Nosotros</a>
                 <a class="nav__locales" href="Objetivo.html">Objetivo</a>
+                <li class="navulitems-close"><a href="#close" class="close__enlace"><span class="jam jam-close-circle"></span></a></li>
             </nav>
-        <a class="hamburguesa" href=""><i class="fa-solid fa-bars"></i></a>
+        <a class="hamburguesa" href="#lateral"><i class="fa-solid fa-bars"></i></a>
     </header>
     <main>
         <div>
-            <h1 class="tituloloc">Locales</h1>
+            <h1 class="tituloloc"><strong>Locales</strong></h1>
         </div>
         <section class="parrafoloc">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, architecto ipsa? Maxime quibusdam voluptates quo nobis debitis.
-            Iste tempore tempora nihil ullam, modi, odio natus exercitationem, soluta excepturi fugiat reiciendis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Repudiandae, architecto ipsa? Maxime quibusdam voluptates quo nobis debitis.Iste tempore tempora nihil ullam, modi, odio natus exercitationem, soluta excepturi 
-            fugiat reiciendis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, architecto ipsa? Maxime quibusdam voluptates quo nobis debitis.
-            Iste tempore tempora nihil ullam, modi, odio natus exercitationem, soluta excepturi fugiat reiciendis!</p>
+            <p>¡Podes encontrarnos aca! Dentro de poco nos vas a ver en muchos más lugares, vamos a abarcar todo el país para crear grandes comunidades en lo largo y ancho de Argentina</p>
         </section>
         <section class="mapa">
             <div>
@@ -43,8 +45,9 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <h6 class="derechos">Derechos reservados de BlockCoffee</h6>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

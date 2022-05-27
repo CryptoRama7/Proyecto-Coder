@@ -1,20 +1,37 @@
+.derechos {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 15px;
+  }
+
 .mapa {
     display: grid;
     justify-items: center;
     margin-top: 30px;
     justify-content: center;
-} 
+  } 
 
 .hamburguesa {
     display: none;
     margin: 40px 40px 0px 0px ;
     text-decoration: none;
     color: $color-claro;
-}
+  }
+
+.close__enlace {
+    display: none;
+  }
+.navulitems-close {
+    display: none;
+  }
+.jam-close-circle {
+    display: none;
+  }
 
 button {
     font-size: initial;
-}
+  }
 
 .card {
     width: 200px;
@@ -22,4 +39,4 @@ button {
     margin-top: 30px;
     margin-left: 15px;
     z-index: -1;
-}
+  }

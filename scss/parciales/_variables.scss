@@ -1,1 +1,73 @@
 $color-claro: wheat;
+$color-oscuro: black;
+$color-principal: saddlebrown;
+$fondo: linear-gradient(to bottom, #6f3810, #130901);
+
+$listas: (
+    borde: 7px solid $color-claro,
+    efecto-borde: 14px,
+    color1: $color-claro,
+    color2: $color-oscuro,
+    margin-izq: 50px,
+    margin-sup: 30px,
+    estilo: none,
+    padding-izq: 5px,
+    padding-der: 5px,
+    display: inline-block,
+    display1: flex,
+    direccion: column,
+    ancho: 200px
+);
+
+.lista {
+    border: map-get($map: $listas, $key: borde);
+    border-radius: map-get($map: $listas, $key: efecto-borde);
+    color: map-get($map: $listas, $key: $color-claro);
+    margin-left: map-get($map: $listas, $key: margin-izq);
+    margin-top: map-get($map: $listas, $key: margin-sup);
+    list-style: map-get($map: $listas, $key: estilo);
+    padding-left: map-get($map: $listas, $key: padding-izq);
+    padding-right: map-get($map: $listas, $key: padding-der);
+    display: map-get($map: $listas, $key: display1);
+    flex-direction: map-get($map: $listas, $key: direccion);
+}
+
+.lista1__cafes {
+    border: map-get($map: $listas , $key: borde);
+    border-radius: map-get($map: $listas , $key: efecto-borde);
+    color: map-get($map: $listas, $key: color2);
+    list-style: map-get($map: $listas, $key: estilo);
+    padding-left: map-get($map: $listas, $key: padding-izq);
+    width: map-get($map: $listas, $key: ancho);
+    display: map-get($map: $listas, $key: display);
+}
+
+.lista2__comida {
+    border: map-get($map: $listas , $key: borde);
+    border-radius: map-get($map: $listas , $key: efecto-borde);
+    color: map-get($map: $listas, $key: color2);
+    list-style: map-get($map: $listas, $key: estilo);
+    padding-left: map-get($map: $listas, $key: padding-izq);
+    width: map-get($map: $listas, $key: ancho);
+    display: map-get($map: $listas, $key: display);
+}
+
+.lista3_bebidas {
+    border: map-get($map: $listas , $key: borde);
+    border-radius: map-get($map: $listas , $key: efecto-borde);
+    color: map-get($map: $listas, $key: color2);
+    list-style: map-get($map: $listas, $key: estilo);
+    padding-left: map-get($map: $listas, $key: padding-izq);
+    width: map-get($map: $listas, $key: ancho);
+    display: map-get($map: $listas, $key: display);
+}
+
+.lista4_bebidas {
+    border: map-get($map: $listas , $key: borde);
+    border-radius: map-get($map: $listas , $key: efecto-borde);
+    color: map-get($map: $listas, $key: color2);
+    list-style: map-get($map: $listas, $key: estilo);
+    padding-left: map-get($map: $listas, $key: padding-izq);
+    width: map-get($map: $listas, $key: ancho);
+    display: map-get($map: $listas, $key: display);
+}

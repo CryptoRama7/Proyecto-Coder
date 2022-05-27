@@ -1,8 +1,11 @@
 body{
-    background-color:saddlebrown;
+    background-color:$color-principal;
     color:$color-claro;
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    background-image: linear-gradient(to bottom, saddlebrown, rgb(19, 9, 1));
-}
+  }
+
+body { 
+    background-image: $fondo
+  }

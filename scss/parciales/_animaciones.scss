@@ -1,4 +1,25 @@
-@keyframes pielogo {
+.pie__formulario--boton {
+    height: 24px;
+    width: 50px;
+    transition: .3s ease all;
+  }
+  
+  .pie__formulario--boton:hover {
+    background-color: $color-principal;
+    transform:translateX(5px);
+  }
+  
+  .pie__logo {
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+    transform: rotate(360deg);
+    animation-name: pielogo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pielogo {
     0% {
         transform: rotate(0deg);
     }
@@ -8,17 +29,12 @@
     100% {
         transform: rotate(360deg);
     }
-}
+  }
 
-.imgsegundaparteindex{
-    width: 300px;
-    height: 200px;
-    transition: 3s all;
-}
-
-.segundaparteindex:hover .imgsegundaparteindex {
-    transform: translateX(130px);
+.fotoscomida {
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
     width: 400px;
-    height: 240px;
+    height: 300px;
 }
-

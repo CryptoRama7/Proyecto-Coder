@@ -6,6 +6,25 @@
     .nav {
         display: none;
     }
+  
+    #lateral {
+        display: block;
+        background-color: $color-principal;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: -100%;
+        transition: right 0.7s;
+        width: 80%;
+    }
+  
+    #lateral:target {
+        right: 0;
+    }
+  
     .hamburguesa {
         display: block;
     }
@@ -22,6 +41,7 @@
     }
     .redes {
         flex-direction: column;
+        margin-top: 7rem;
     }
     .pie {
         margin: 5px;
@@ -43,9 +63,9 @@
         height: 20px;
         width: 50px;
     }
-
+  
     .pie__formulario--boton:hover {
-        background-color: saddlebrown;
+        background-color: $color-principal;
         transform:translateX(5px);
     }
     
@@ -57,13 +77,31 @@
     h6 {
         font-size: 20px;
     }
-
+  
     .mapa {
         display: flex;
         flex-direction: column;
     }
-
-    .imgsegundaparteindex {
-        animation: none;
+  
+    .imgsegundaparteindex{
+        width: 300px;
+        height: 200px;
     }
-}
+  
+  
+    .jam-close-circle {
+        display: block;
+        color: $color-claro;
+        text-decoration: none;
+    }
+  
+    .close__enlace {
+        display: block;
+        text-decoration: none;
+    }
+  
+    .navulitems-close {
+        display: block;
+        text-decoration: none;
+    }
+  }

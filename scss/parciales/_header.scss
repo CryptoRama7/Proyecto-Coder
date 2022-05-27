@@ -10,35 +10,37 @@
 
     .encabezado__icono {
         margin-left: 25px;
-    }   
+  }   
 }
 
 .nav { 
-display: flex;
-align-self: center;
-margin-right: 40px;
+    display: flex;
+    align-self: center;
+    margin-right: 40px;
 
     .nav__menu {
-    color: $color-claro;
-    text-decoration: none;
-    margin: 0px 10px;
-    }
+        color: $color-claro;
+        text-decoration: none;
+        margin: 0px 10px;
+      }
+      
+      .nav__objetivo {
+        color: $color-claro;
+        text-decoration: none;
+        margin: 0px 10px;
+      }
+      
+      .nav__sobrenosotros {
+        color: $color-claro;
+        text-decoration: none;
+        margin: 0px 10px;
+      }
+      
+      .nav__locales {
+        color: $color-claro;
+        text-decoration: none;
+        margin: 0px 10px;
+      }
+  }
 
-    .nav__objetivo {
-    color: $color-claro;
-    text-decoration: none;
-    margin: 0px 10px;
-    }
-
-    .nav__sobrenosotros {
-    color: $color-claro;
-    text-decoration: none;
-    margin: 0px 10px;
-    }
-
-    .nav__locales {
-    color: $color-claro;
-    text-decoration: none;
-    margin: 0px 10px;
-    }
-}
+  

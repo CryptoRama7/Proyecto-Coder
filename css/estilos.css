@@ -1,3 +1,55 @@
+.lista {
+  border: 7px solid wheat;
+  border-radius: 14px;
+  margin-left: 50px;
+  margin-top: 30px;
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lista1__cafes {
+  border: 7px solid wheat;
+  border-radius: 14px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+  width: 200px;
+  display: inline-block;
+}
+
+.lista2__comida {
+  border: 7px solid wheat;
+  border-radius: 14px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+  width: 200px;
+  display: inline-block;
+}
+
+.lista3_bebidas {
+  border: 7px solid wheat;
+  border-radius: 14px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+  width: 200px;
+  display: inline-block;
+}
+
+.lista4_bebidas {
+  border: 7px solid wheat;
+  border-radius: 14px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+  width: 200px;
+  display: inline-block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +102,7 @@
 
 .pie {
   margin-left: 50px;
+  margin-top: 50px;
 }
 
 .pie .pie__promocion {
@@ -65,25 +118,17 @@
   width: 250px;
 }
 
-.pie .pie__formulario--boton {
-  height: 24px;
-  width: 50px;
-  transition: .3s ease all;
+h6 {
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 15px;
 }
 
-.pie .pie__formulario--boton:hover {
-  background-color: saddlebrown;
-  transform: translateX(5px);
-}
-
-.pie .pie__logo {
-  width: 100px;
-  height: 100px;
-  transition: 3s;
-  transform: rotate(360deg);
-  animation-name: pielogo;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+.footer {
+  background-color: black;
+  height: 3rem;
+  text-align: center;
+  background-image: radial-gradient(#30180a, #130901);
 }
 
 body {
@@ -92,7 +137,10 @@ body {
   box-sizing: border-box;
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
-  background-image: linear-gradient(to bottom, saddlebrown, #130901);
+}
+
+body {
+  background-image: linear-gradient(to bottom, #6f3810, #130901);
 }
 
 .presentacion {
@@ -150,18 +198,6 @@ body {
   font-size: 50px;
 }
 
-h6 {
-  font-size: 20px;
-  font-weight: 100;
-}
-
-.derechos {
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: 100;
-  margin-left: 15px;
-}
-
 .parrafosn {
   margin-top: 30px;
   margin-left: 50px;
@@ -186,13 +222,13 @@ h6 {
   text-align: justify;
 }
 
-.parrafo {
-  font-size: 20px;
-}
-
 .segundaparteindex {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.parrafo {
+  font-size: 20px;
 }
 
 .continuacionindex {
@@ -260,6 +296,22 @@ h6 {
   .nav {
     display: none;
   }
+  #lateral {
+    display: block;
+    background-color: saddlebrown;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: -100%;
+    transition: right 0.7s;
+    width: 80%;
+  }
+  #lateral:target {
+    right: 0;
+  }
   .hamburguesa {
     display: block;
   }
@@ -276,6 +328,7 @@ h6 {
   }
   .redes {
     flex-direction: column;
+    margin-top: 7rem;
   }
   .pie {
     margin: 5px;
@@ -310,7 +363,21 @@ h6 {
     flex-direction: column;
   }
   .imgsegundaparteindex {
-    animation: none;
+    width: 300px;
+    height: 200px;
+  }
+  .jam-close-circle {
+    display: block;
+    color: wheat;
+    text-decoration: none;
+  }
+  .close__enlace {
+    display: block;
+    text-decoration: none;
+  }
+  .navulitems-close {
+    display: block;
+    text-decoration: none;
   }
 }
 
@@ -334,10 +401,10 @@ h6 {
   display: inline-block;
 }
 
-.lista {
-  border: 7px solid black;
+/* .lista {
+  border: 7px solid wheat;
   border-radius: 14px;
-  color: black;
+  color: wheat;
   margin-left: 50px;
   margin-top: 30px;
   list-style: none;
@@ -345,51 +412,51 @@ h6 {
   padding-right: 5px;
   display: flex;
   flex-direction: column;
-}
-
-.lista .lista1__cafes {
-  display: inline-block;
-  border: 7px solid #200f02;
-  border-radius: 14px;
-  width: 200px;
-  color: black;
-  list-style: none;
-  padding-left: 5px;
-}
-
-.lista .lista2__comida {
-  display: inline-block;
-  border: 7px solid #200f02;
-  border-radius: 14px;
-  width: 200px;
-  color: black;
-  list-style: none;
-  padding-left: 5px;
-}
-
-.lista .lista3__bebidas {
-  display: inline-block;
-  border: 7px solid #200f02;
-  border-radius: 14px;
-  width: 200px;
-  color: black;
-  list-style: none;
-  padding-left: 5px;
-}
-
-.lista .lista4__bebidas {
-  display: inline-block;
-  border: 7px solid #200f02;
-  border-radius: 14px;
-  width: 200px;
-  color: black;
-  list-style: none;
-  padding-left: 5px;
-}
+} */
 
 ul {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.lista1__cafes {
+  display: inline-block;
+  border: 7px solid wheat;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.lista2__comida {
+  display: inline-block;
+  border: 7px solid wheat;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.lista3__bebidas {
+  display: inline-block;
+  border: 7px solid wheat;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.lista4__bebidas {
+  display: inline-block;
+  border: 7px solid wheat;
+  border-radius: 14px;
+  width: 200px;
+  color: black;
+  list-style: none;
+  padding-left: 5px;
 }
 
 .founders {
@@ -408,12 +475,18 @@ ul {
   flex-direction: column;
 }
 
-.fotoscomida {
-  z-index: -1;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 400px;
-  max-height: 300px;
+.imgsegundaparteindex {
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.derechos {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 15px;
 }
 
 .mapa {
@@ -430,6 +503,18 @@ ul {
   color: wheat;
 }
 
+.close__enlace {
+  display: none;
+}
+
+.navulitems-close {
+  display: none;
+}
+
+.jam-close-circle {
+  display: none;
+}
+
 button {
   font-size: initial;
 }
@@ -440,6 +525,27 @@ button {
   margin-top: 30px;
   margin-left: 15px;
   z-index: -1;
+}
+
+.pie__formulario--boton {
+  height: 24px;
+  width: 50px;
+  transition: .3s ease all;
+}
+
+.pie__formulario--boton:hover {
+  background-color: saddlebrown;
+  transform: translateX(5px);
+}
+
+.pie__logo {
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+  transform: rotate(360deg);
+  animation-name: pielogo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pielogo {
@@ -454,15 +560,11 @@ button {
   }
 }
 
-.imgsegundaparteindex {
-  width: 300px;
-  height: 200px;
-  transition: 3s all;
-}
-
-.segundaparteindex:hover .imgsegundaparteindex {
-  transform: translateX(130px);
+.fotoscomida {
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
-  height: 240px;
+  height: 300px;
 }
 /*# sourceMappingURL=estilos.css.map */
