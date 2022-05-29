@@ -71,3 +71,39 @@ $listas: (
     width: map-get($map: $listas, $key: ancho);
     display: map-get($map: $listas, $key: display);
 }
+
+.parrafoobj {
+    @extend .parrafosn;
+    color: black;
+    text-align: justify;
+}
+  
+.parrafoloc {
+    @extend .parrafoobj;
+}
+  
+@mixin titulos ($size, $color, $style) { 
+    font-size: $size;
+    color: $color;
+    font-style: $style;
+}
+
+.presentacion_titulo {
+    @include titulos(none, $color-claro, oblique)
+}
+
+.titulomenu {
+    @include titulos(150px, $color-claro, none)
+}
+
+.titulosn {
+    @include titulos(150px, $color-claro, none)
+}
+
+.tituloobj {
+    @include titulos(150px, $color-claro, none)
+}
+
+.tituloloc {
+    @include titulos(150px, $color-claro, none)
+}
