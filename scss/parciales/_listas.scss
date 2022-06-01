@@ -19,9 +19,9 @@
   }
 
 .lista {
-    border: 7px solid $color-claro;
+    border: 7px solid $color-oscuro;
     border-radius: 14px;
-    color: $color-claro;
+    color: $color-oscuro;
     margin-left: 50px;
     margin-top: 30px;
     list-style: none;
@@ -29,6 +29,7 @@
     padding-right: 5px;
     display: flex;
     flex-direction: column;
+    background-color: rgba(245, 222, 179, 0.25);
   }
 
 ul {
@@ -38,40 +39,44 @@ ul {
 
   .lista1__cafes {
     display: inline-block;
-    border: 7px solid $color-claro;
+    border: 7px solid $color-oscuro;
     border-radius: 14px;
     width: 200px;
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
+    background-color: rgba(245, 222, 179, 0.25);
   }
 
 .lista2__comida {
     display: inline-block;
-    border: 7px solid $color-claro;
+    border: 7px solid $color-oscuro;
     border-radius: 14px;
     width: 200px;   
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
+    background-color: rgba(245, 222, 179, 0.25);
   }
 
 .lista3__bebidas {
     display: inline-block;
-    border: 7px solid $color-claro;
+    border: 7px solid $color-oscuro;
     border-radius: 14px;
     width: 200px;   
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
+    background-color: rgba(245, 222, 179, 0.25);
   }
 
 .lista4__bebidas {
     display: inline-block;
-    border: 7px solid $color-claro;
+    border: 7px solid $color-oscuro;
     border-radius: 14px;
     width: 200px;   
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
+    background-color: rgba(245, 222, 179, 0.25);
   }

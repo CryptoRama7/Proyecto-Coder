@@ -4,15 +4,15 @@
     margin-right: 50px;
     text-align: center;
     color: $color-claro;
-  }
+}
 
 .parrafoobj {
-    color: $color-oscuro;
+    color: $color-claro;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
     text-align: justify;
-  }
+}
 
 .parrafoloc {
     color: $color-oscuro;
@@ -20,17 +20,18 @@
     margin-left: 50px;
     margin-right: 50px;
     text-align: justify;
-    }
+}
 
 .segundaparteindex {
         padding-top: 30px;
         padding-bottom: 30px;
-      }
+        color: $color-claro;
+}
 
 .parrafo {
         font-size: 20px;
-      }
+}
 
 .continuacionindex {
         text-decoration: underline;
-      }
+}
