@@ -19,7 +19,7 @@
   }
 
 .lista {
-    border: 7px solid $color-oscuro;
+    border: 5px solid $color-oscuro;
     border-radius: 14px;
     color: $color-oscuro;
     margin-left: 50px;
@@ -29,7 +29,7 @@
     padding-right: 5px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(245, 222, 179, 0.25);
+    background-color: rgb(245, 222, 179);
   }
 
 ul {
@@ -38,45 +38,54 @@ ul {
   }
 
   .lista1__cafes {
+    font-family: 'Nunito', sans-serif;
     display: inline-block;
-    border: 7px solid $color-oscuro;
+    border: 5px solid $color-oscuro;
     border-radius: 14px;
-    width: 200px;
+    width: 250px;
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
-    background-color: rgba(245, 222, 179, 0.25);
+    background-color: rgb(245, 222, 179);
+    text-transform: uppercase;
   }
 
 .lista2__comida {
+    font-family: 'Nunito', sans-serif;
     display: inline-block;
-    border: 7px solid $color-oscuro;
+    border: 5px solid $color-oscuro;
     border-radius: 14px;
-    width: 200px;   
+    width: 250px;   
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
-    background-color: rgba(245, 222, 179, 0.25);
+    background-color: rgb(245, 222, 179);
+    text-transform: uppercase;
   }
 
 .lista3__bebidas {
+    font-family: 'Nunito', sans-serif;
     display: inline-block;
-    border: 7px solid $color-oscuro;
+    border: 5px solid $color-oscuro;
     border-radius: 14px;
-    width: 200px;   
+    width: 250px;   
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
-    background-color: rgba(245, 222, 179, 0.25);
+    background-color: rgb(245, 222, 179);
+    text-transform: uppercase;
   }
 
 .lista4__bebidas {
+    font-family: 'Nunito', sans-serif;
     display: inline-block;
-    border: 7px solid $color-oscuro;
+    border: 5px solid $color-oscuro;
     border-radius: 14px;
-    width: 200px;   
+    width: 250px;   
     color: $color-oscuro;
     list-style: none;
     padding-left: 5px;
-    background-color: rgba(245, 222, 179, 0.25);
+    background-color: rgb(245, 222, 179);
+    text-transform: uppercase;
+    transition: .1s;
   }

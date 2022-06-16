@@ -17,7 +17,8 @@
     animation-name: pielogo;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    margin-left: 50px;
+    margin-left: 25px;
+    z-index: -1;
   }
   
   @keyframes pielogo {
@@ -31,11 +32,49 @@
         transform: rotate(360deg);
     }
   }
-
+  
 .fotoscomida {
-    z-index: -1;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     height: 300px;
+    z-index: -1;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .fotoscomida {
+    max-width: 320px;
+  }
+}
+
+.li_menu:hover {
+  color: $color-oscuro;
+  transform: scale(1.1);
+  background: $color-principal;
+  border: 1px solid $color-principal;
+}
+
+.li_menu:hover::before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -2.5px;
+  top: -12.5px;
+  border-style: solid;
+  border-width: 0 0 11.5px 9px;
+  border-color: transparent $color-claro $color-claro transparent;
+}
+
+.li_menu:hover::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -1.5px;
+  top: -12.5px;
+  border-style: solid;
+  border-width: 11.5px 0 0 11.5px;
+  border-color: transparent transparent transparent $color-oscuro;
 }

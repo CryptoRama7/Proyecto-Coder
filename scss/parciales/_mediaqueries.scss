@@ -24,12 +24,40 @@
     #lateral:target {
         right: 0;
     }
-  
+    
+    .pie .pie__promocion {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .pie .pie__formulario {
+        margin-right: 25px;
+    }
+    
+    .pie .pie__formulario--completar {
+        height: 25px;
+        width: 120px;
+    }
+    
+    .pie__formulario--boton {
+        height: 25px;
+        width: 50px;
+    }
+    
+    .pie__formulario--boton:hover {
+        background-color: $color-principal;
+        transform:translateX(5px);
+    }
+
+    .pie__formulario--ingresar {
+        font-size: 15px;
+    }
+    
     .hamburguesa {
         display: block;
     }
     .presentacion__titulo {
-        font-size: 70px ;
+        font-size: 10px;
         padding-bottom: 20px;
     }
     .presentacion__subtitulo {
@@ -41,34 +69,8 @@
     }
     .redes {
         flex-direction: column;
-        margin-top: 7rem;
-    }
-    .pie {
-        margin: 5px;
-    }
-    .pie__promocion {
-        font-size: 20px;
-    }
-    
-    .pie__formulario {
-        font-size: 20px;
-    }
-    
-    .pie__formulario--completar {
-        height: 15px;
-        width: 100px;
-    }
-    
-    .pie__formulario--boton {
-        height: 20px;
-        width: 50px;
-    }
-  
-    .pie__formulario--boton:hover {
-        background-color: $color-principal;
-        transform:translateX(5px);
-    }
-    
+        padding-right: 0px;
+    }    
     .pie__logo {
         width: 100px;
         height: 100px;
@@ -83,6 +85,10 @@
         flex-direction: column;
     }
   
+    .segundaparteindex {
+        padding-bottom: 0px;
+
+    }
     .imgsegundaparteindex{
         width: 300px;
         height: 200px;
@@ -103,5 +109,15 @@
     .navulitems-close {
         display: block;
         text-decoration: none;
+    }   
+    .parrafoloc {
+        font-size: 25px
+    }
+    .mapa {
+        align-items: center;
+    }
+    .mapa-iframe {
+        width: 300px;
+        height: 300px;
     }
   }

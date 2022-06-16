@@ -15,11 +15,11 @@
 }
 
 .parrafoloc {
-    color: $color-oscuro;
+    color: $color-claro;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
-    text-align: justify;
+    font-size: 35px;
 }
 
 .segundaparteindex {
@@ -34,4 +34,12 @@
 
 .continuacionindex {
         text-decoration: underline;
+}
+
+.plista {
+    background-color: rgba(109, 42, 0, 0.343);
+    margin-left: -5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
 }

@@ -5,10 +5,19 @@
     margin-left: 15px;
   }
 
+.derechos-fueraindex {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 0;
+}
+
 .mapa {
     display: grid;
     justify-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     justify-content: center;
   } 
 
@@ -33,10 +42,3 @@ button {
     font-size: initial;
   }
 
-.card {
-    width: 200px;
-    height: 200px;
-    margin-top: 30px;
-    margin-left: 15px;
-    z-index: -1;
-  }
