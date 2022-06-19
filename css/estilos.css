@@ -235,6 +235,11 @@ body {
   align-items: center;
 }
 
+.contenedor-objetivo {
+  display: flex;
+  flex-direction: column;
+}
+
 .redes {
   display: flex;
   justify-content: flex-end;
@@ -384,20 +389,21 @@ ul {
   transition: .1s;
 }
 
+.parrafoobj, .parrafoloc {
+  color: wheat;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
 .parrafosn, .parrafoobj, .parrafoloc {
   margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
   color: wheat;
-}
-
-.parrafoobj, .parrafoloc {
-  color: wheat;
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: justify;
+  font-size: 38px;
 }
 
 .parrafoloc {
@@ -430,6 +436,49 @@ ul {
   text-transform: uppercase;
 }
 
+.bloque1 {
+  background-color: black;
+  height: 525px;
+  margin-top: 85px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bloque2 {
+  height: 525px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bloque3 {
+  background-color: rgba(255, 255, 255, 0.803);
+  height: 525px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.crearcomunidad {
+  font-size: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.educar {
+  font-size: 80px;
+  margin-left: 25px;
+}
+
+.integraroutsiders {
+  font-size: 80px;
+  color: black;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
 .founders {
   width: 50%;
   height: 60%;
@@ -453,6 +502,21 @@ ul {
   width: 300px;
   height: 200px;
   border-radius: 5px;
+}
+
+.icono1 {
+  height: 250px;
+  margin-right: 100px;
+}
+
+.icono2 {
+  height: 250px;
+  margin-left: 100px;
+}
+
+.icono3 {
+  height: 250px;
+  margin-right: 100px;
 }
 
 .derechos {
@@ -501,6 +565,10 @@ button {
   font-size: initial;
 }
 
+.carousel {
+  z-index: -1;
+}
+
 .pie__formulario--boton {
   height: 24px;
   width: 50px;
@@ -543,6 +611,18 @@ button {
   height: 300px;
   z-index: -1;
   margin-top: 50px;
+}
+
+.carousel {
+  z-index: -1;
+}
+
+.carousel .carousel-control-prev {
+  z-index: -1;
+}
+
+.carousel .carousel-control-next {
+  z-index: -1;
 }
 
 @media screen and (max-width: 600px) {
@@ -627,6 +707,51 @@ button {
   margin: 0px 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .crearcomunidad {
+    font-size: 55px;
+  }
+  .educar {
+    font-size: 55px;
+  }
+  .integraroutsiders {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bloque1 {
+    justify-content: center;
+  }
+  .crearcomunidad {
+    margin-left: auto;
+  }
+  .icono1 {
+    margin-right: auto;
+    height: 200px;
+  }
+  .bloque2 {
+    justify-content: center;
+  }
+  .educar {
+    margin-right: auto;
+  }
+  .icono2 {
+    margin-left: auto;
+    height: 200px;
+  }
+  .bloque3 {
+    justify-content: center;
+  }
+  .integraroutsiders {
+    margin-left: auto;
+  }
+  .icono3 {
+    margin-right: auto;
+    height: 200px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .grid {
     display: flex;
@@ -676,20 +801,33 @@ button {
   .hamburguesa {
     display: block;
   }
-  .presentacion__titulo {
-    font-size: 10px;
+  .presentacion .presentacion__titulo {
+    font-size: 100px;
     padding-bottom: 20px;
   }
-  .presentacion__subtitulo {
-    font-size: 40px;
+  .presentacion .presentacion__subtitulo {
+    font-size: 35px;
     padding-bottom: 10px;
   }
-  .presentacion__adicional {
+  .presentacion .presentacion__adicional {
     font-size: 25px;
   }
   .redes {
     flex-direction: column;
     padding-right: 0px;
+    margin-top: 150px;
+  }
+  .redes .redes__twitter {
+    height: 90px;
+    width: 90px;
+  }
+  .redes .redes__instagram {
+    height: 90px;
+    width: 90px;
+  }
+  .redes .redes__telegram {
+    height: 90px;
+    width: 90px;
   }
   .pie__logo {
     width: 100px;
@@ -731,6 +869,106 @@ button {
   .mapa-iframe {
     width: 300px;
     height: 300px;
+  }
+  .crearcomunidad {
+    font-size: 40px;
+  }
+  .educar {
+    font-size: 40px;
+  }
+  .integraroutsiders {
+    font-size: 40px;
+  }
+  .bloque1 {
+    justify-content: center;
+  }
+  .bloque2 {
+    justify-content: center;
+  }
+  .bloque3 {
+    justify-content: center;
+  }
+  .icono1 {
+    height: 150px;
+  }
+  .icono2 {
+    height: 150px;
+  }
+  .icono3 {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bloque1 {
+    height: 400px;
+  }
+  .bloque2 {
+    height: 400px;
+  }
+  .bloque3 {
+    height: 400px;
+  }
+  .crearcomunidad {
+    font-size: 30px;
+  }
+  .educar {
+    font-size: 30px;
+  }
+  .integraroutsiders {
+    font-size: 30px;
+  }
+  .bloque1 {
+    justify-content: center;
+  }
+  .bloque2 {
+    justify-content: center;
+  }
+  .bloque3 {
+    justify-content: center;
+  }
+  .icono1 {
+    height: 125px;
+  }
+  .icono2 {
+    height: 125px;
+  }
+  .icono3 {
+    height: 125px;
+  }
+  .presentacion .presentacion__titulo {
+    font-size: 75px;
+    padding-bottom: 20px;
+  }
+  .presentacion .presentacion__subtitulo {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .presentacion .presentacion__adicional {
+    font-size: 18px;
+  }
+  .redes {
+    flex-direction: column;
+    padding-right: 0px;
+    margin-top: 100px;
+  }
+  .redes .redes__twitter {
+    height: 70px;
+    width: 70px;
+  }
+  .redes .redes__instagram {
+    height: 70px;
+    width: 70px;
+  }
+  .redes .redes__telegram {
+    height: 70px;
+    width: 70px;
+  }
+  .parrafo {
+    font-size: 15px;
+  }
+  .continuacionindex {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

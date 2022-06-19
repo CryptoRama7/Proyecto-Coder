@@ -1,17 +1,18 @@
-.parrafosn {
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-    color: $color-claro;
-}
-
 .parrafoobj {
     color: $color-claro;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
-    text-align: justify;
+    text-align: center;
+}
+
+.parrafosn {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  color: $color-claro;
+  font-size: 38px;
 }
 
 .parrafoloc {
@@ -43,3 +44,46 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+.bloque1 {
+    background-color: black;
+    height: 525px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .bloque2 {
+    height: 525px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .bloque3 {
+    background-color: rgba(255, 255, 255, 0.803);
+    height: 525px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .crearcomunidad {
+    font-size: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .educar {
+    font-size: 80px;
+    margin-left: 25px;
+  }
+
+  .integraroutsiders {
+    font-size: 80px;
+    color: $color-oscuro;
+    margin-right: 25px;
+    margin-left: 25px;
+  }

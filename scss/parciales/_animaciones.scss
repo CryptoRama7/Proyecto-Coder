@@ -42,6 +42,18 @@
     margin-top: 50px;
 }
 
+.carousel {
+  z-index: -1 ;
+
+  .carousel-control-prev {
+  z-index: -1;
+  }
+
+  .carousel-control-next {
+  z-index: -1;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .fotoscomida {
     max-width: 320px;
